@@ -16,9 +16,14 @@ function createGame(){
     } else {
       console.log('You start screaming as you run around the room, pulling the bookshelves to the ground, you perform a perfectly exicuted  flying elbow to one of the chest smashing it open and destroying the contents inside. finally you body slam the desk breaking it in   half. observing the destruction you have just caused you are proud of it but notice that you have destryed several items that probably  would have been usual but you dont mind because you are to fucking badass (you earn secret badass points)');
     }
+  };
+  firstEvent();
+  function hallway(){
     var two = prompt('Now that you are standing in the hallway you must choose do you go right or left?');
     if(two = 'right'){
       console.log('You decide to to head to the right. You begin walking toward the window, there is a door at the end of the hallway by the window. You here muffled voices coming from behind the door, you are able to determine there could be 2 maybe 3 people in the room.');
+    } else {
+      console.log('You head down the hallway to the left. As you move closer to the door you hear voices, the closer you get you can make out that there are several and they seem to be angnry about something.');
     }
   }
-};
+}
